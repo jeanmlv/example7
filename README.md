@@ -1,5 +1,6 @@
 # example7
 
-python extract_adam_reference_v2.py --adam-dir "$env:USERPROFILE\Downloads" --conflicts "$env:USERPROFILE\Downloads\unifi_slim_ard_stage1_conflicts.csv" --study UNIFI
-
-python extract_adam_reference_v2.py --adam-dir "$env:USERPROFILE\Downloads" --conflicts "$env:USERPROFILE\Downloads\vega_slim_ard_stage1_conflicts.csv" --study VEGA
+Relatório	Finalidade
+video_study_summary.xlsx	Resumo por estudo: total de arquivos raw/processed e pacientes únicos raw/processed. Ideal para atualizar o 01_STUDIES do ARGES Commons.
+video_visit_coverage.xlsx	Cobertura por visita, com as abas raw_videos, processed_videos e definitions, incluindo pacientes por visita, acumulados e cobertura longitudinal completa.
+video_quality_checks.csv	Verificações de qualidade dos dados, incluindo possíveis inconsistências no inventário.
