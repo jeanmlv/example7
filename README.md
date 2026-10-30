@@ -1,6 +1,10 @@
 # example7
 
-Relatório	Finalidade
-video_study_summary.xlsx	Resumo por estudo: total de arquivos raw/processed e pacientes únicos raw/processed. Ideal para atualizar o 01_STUDIES do ARGES Commons.
-video_visit_coverage.xlsx	Cobertura por visita, com as abas raw_videos, processed_videos e definitions, incluindo pacientes por visita, acumulados e cobertura longitudinal completa.
-video_quality_checks.csv	Verificações de qualidade dos dados, incluindo possíveis inconsistências no inventário.
+Total number of raw video file items identified in Thea.View for the study, across all available visits. Includes original files, transcoded versions, and other raw video files. This is a file-level count, not a count of unique clinical recordings.
+
+Number of distinct patient identifiers with at least one raw video file available in Thea.View, across all visits (scheduled and unscheduled). Patients are deduplicated using the combination of site and patient ID. This count has not necessarily been reconciled with clinical USUBJID values.
+
+
+Total number of processed video file items identified in Thea.View for the study, across all available visits. May include multiple processed outputs for the same clinical recording. This is a file-level count, not a count of unique clinical recordings.
+
+Number of distinct patient identifiers with at least one processed video file available in Thea.View, across all visits (scheduled and unscheduled). Patients are deduplicated using the combination of site and patient ID. This count has not necessarily been reconciled with clinical USUBJID values.
